@@ -1,13 +1,16 @@
 import "./App.css";
 import Header from "./components/Header/Header.js";
+import CreateNote from "./components/CreateNote/CreateNote";
+import Note from "./components/Note/Note";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Create Note</h1>
-      <h1>Note</h1>
-      <h1>Footer</h1>
+      <CreateNote />
+      <Note />
+      <Footer />
     </div>
   );
 }
